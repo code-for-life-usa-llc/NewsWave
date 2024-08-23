@@ -1,0 +1,178 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(37, 45, 98);
+}
+.icon {
+    width: 90%;
+    height: 55px;
+}
+.download-container:hover{
+  
+    text-decoration: underline;
+ }
+ 
+ a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .header-container{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px;  
+ }
+ 
+ .header-container > img {
+   height: 100px;
+ }
+
+a {
+    color: gray;
+}
+a:hover {
+    color: skyblue;
+}
+.title {
+    color: snow;
+}
+.olympics {
+    color: snow;
+    padding-left: 100px;
+    margin-right: 1000px;
+    margin-left: 20px;
+}
+.image {
+    display: flex;
+    text-indent: 100px;
+}
+.image:hover {
+    box-shadow: 100px 100px rgba(rgb(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616), alpha);
+    margin-bottom: 10px;
+    transition: ease-out 0.5s;
+}
+.other-cont {
+    color: snow;
+    padding: 20px;
+}
+.sports {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nfl-logo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.nfl-logo:hover {
+    box-shadow: 200px 200px 200px rgb(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603));
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.nhl-logo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.nhl-logo:hover {
+    box-shadow: 200px 200px 200px rgb(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603));
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.mlb-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.mlb-logo:hover {
+    box-shadow: 200px 200px 200px rgb(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603));
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.mls-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.mls-logo:hover {
+    box-shadow: 200px 200px 200px rgb(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603));
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.nba-logo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.nba-logo:hover {
+    box-shadow: 200px 200px 200px rgb(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603));
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.football {
+    color: snow;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.football:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.hockey {
+    color: snow;
+    margin-left: 75px;
+    font-family: Arial, "Helvetica Neue";
+    text-decoration: none;
+}
+.hockey:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.baseball {
+    color: snow;
+    margin-left: 75px;
+    font-family: Arial, "Helvetica Neue";
+    text-decoration: none;
+}
+.baseball:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.soccer {
+    color: snow;
+    margin-left: 75px;
+    font-family: Arial, "Helvetica Neue";
+    text-decoration: none;
+}
+.soccer:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.basketball {
+    color: snow;
+    margin-left: 75px;
+    font-family: Arial, "Helvetica Neue";
+    text-decoration: none;
+}
+.basketball:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+

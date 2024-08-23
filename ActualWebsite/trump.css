@@ -1,0 +1,126 @@
+body {
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+.main-politics-container {
+    background-color: rgb(49, 48, 48);
+    margin: 0 auto;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/025/350/758/non_2x/usa-2024-presidential-elections-event-banner-background-card-poster-design-presidential-elections-2024-banner-with-american-colors-design-and-typography-vote-day-november-5-us-election-free-vector.jpg);
+    height: 100vh;
+    width: 100%;    
+}
+
+.download-container:hover{
+  
+    text-decoration: underline;
+ }
+ 
+ a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .header-container{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px;  
+ }
+ 
+ .header-container > img {
+   height: 100px;
+ }
+
+
+#politics-title {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(2, 2, 104, 0.555);
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.trumpv-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    gap: 2em;
+    padding: 15px;
+    margin-top: 2em;
+    color: aliceblue;
+    border: 3px dotted aliceblue;
+}
+
+.republic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%
+}
+
+.republic > h5 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkred;
+    margin-right: auto;
+    height: 30px;
+    transition: transform ease-out.5s;
+}
+
+.republic > h5:hover {
+    transition: transform ease-in .5s;
+    transform: rotateX(360deg);
+}
+
+.rotate-animate {
+    transition: transform ease-out.5s;
+}
+
+.rotate-animate:hover {
+    transition: transform ease-out.5s;
+    transform: rotateX(360deg)
+}
+
+.header-container {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 85%;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+
+
+
+

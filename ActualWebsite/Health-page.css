@@ -1,0 +1,222 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(49, 48, 48);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header-container {
+  width: 100%;
+  height: 65px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.download-container {
+
+  display: flex;
+  justify-content: space-between;
+  text-decoration: dashed;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.download-container>img {
+  height: 75px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  width: 50%;
+
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Vaping-article-text:hover {
+  text-decoration: underline;
+}
+
+.Vaping-article-text {
+  padding-left: 35px;
+}
+
+.two-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.peanuts {
+  padding-left: 60px;
+  opacity: 1;
+  display: block;
+  width: 60%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.peanuts-title {
+  padding-right: 35px;
+  text-align: left;
+}
+
+.peanuts:hover {
+  opacity: 0.5;
+}
+
+.peanuts-title:hover {
+  text-decoration: underline;
+}
+
+
+.Two-more-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Stretching-photo {
+  padding-left: 30px;
+  opacity: 1;
+  display: block;
+  width: 175px;
+  height: 136.75px;
+  transition: .5s ease;
+  backface-visibility: hidden
+}
+
+.Stretching-photo:hover {
+  opacity: 0.5;
+}
+
+.Stretching-article {
+  display: flex;
+  flex-direction: row;
+}
+
+.Stretching-title {
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.Stretching-title:hover {
+  text-decoration: underline;
+}
+
+.Shower-photo{
+  padding-left: 30px;
+  opacity: 1;
+  display: block;
+  width: 175px;
+  height: 136.75px;
+  transition: .5s ease;
+  backface-visibility: hidden
+}
+
+.Shower-photo:hover{
+  opacity: 0.5;
+}
+
+.Showers-article{
+  display: flex;
+  flex-direction: row;
+  padding-right: 5px;
+}
+
+.Shower-title{
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.Shower-title:hover{
+  text-decoration: underline;
+}
+
+.Two-more-more-articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Cacao-photo{
+  margin-top: 30px;
+  padding-left: 30px;
+  opacity: 1;
+  display: block;
+  width: 175px;
+  height: 136.75px;
+  transition: .5s ease;
+  backface-visibility: hidden
+}
+
+.Cacao-photo:hover{
+  opacity: 0.5;
+}
+
+.Chocolate-article{
+  display: flex;
+  flex-direction: row;
+}
+
+.Cacao-title{
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.Cacao-title:hover{
+  text-decoration: underline;
+}
+
+.Sleep-photo{
+  margin-top: 30px;
+  padding-left: 30px;
+  opacity: 1;
+  display: block;
+  width: 175px;
+  height: 136.75px;
+  transition: .5s ease;
+  backface-visibility: hidden
+}
+
+.Sleep-photo:hover{
+  opacity: 0.5;
+}
+
+.Sleep-article{
+  display: flex;
+  flex-direction: row;
+  padding-right: 155px;
+}
+
+.Sleep-title{
+  padding-left: 5px;
+  padding-top: 40px;
+}

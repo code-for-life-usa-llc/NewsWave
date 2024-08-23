@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(49, 48, 48);
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.img-show {
+    height: 500px;
+    width: 500px;
+}
